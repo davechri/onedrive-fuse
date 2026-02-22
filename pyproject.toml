@@ -7,13 +7,13 @@ dependencies = {file = ["requirements.txt"]}
 
 [project]
 name = "onedrive-fuse"
-version = "0.0.9"
+version = "0.0.1"
 license = { text = "MIT" }
 dynamic = ["dependencies"]
 authors = [
     { name="Dave Christenson", email="davechri58@gmail.com" }
 ]
-description = "SSH File System with offline access to cached files."
+description = "onedrive-fuse is a Linux or macOS filesystem for OneDrive"
 readme = "README.md"
 keywords = ["offline", "cache", "onedrive", "fuse-filesystem", "fuse"]
 classifiers = [
