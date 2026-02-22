@@ -17,10 +17,7 @@ from onedrive_fuse.remote import truncate, chmod, utime, create, remove, rename,
 from onedrive_fuse.stats import calledStats
 
 class FuseOps(Operations):
-    '''
-    SSH File System with offline access to cached files.
-    '''    
-                        
+                            
     def __init__(self, args): 
         common.threadLocal.operation = 'filesys_init'
         common.threadLocal.path = None

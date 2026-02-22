@@ -3,4 +3,4 @@ plyvel==1.5.1
 gitignore_parser==0.1.13
 humanize==4.15.0
 python-dotenv==1.2.1
-
+requests==2.32.5
