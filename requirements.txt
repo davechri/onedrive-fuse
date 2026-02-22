@@ -1,0 +1,7 @@
+fusepy==3.0.1
+plyvel==1.5.1
+gitignore_parser==0.1.13
+humanize==4.15.0
+python-dotenv==1.2.1
+msal==1.34.0
+

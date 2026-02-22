@@ -1,0 +1,22 @@
+
+### This is the configuration file.
+### It should be placed in $HOME/.onedrive-fuse/config.toml
+
+# Directory names that are only created localy and not synced to Google Drive.
+# Files in local only directories are stored in the native filessystem for fast
+# updates.  Install directories are good candidates to be stored locally.
+local_only = [
+    "node_modules",    
+]
+
+# Registrater a onedrive application:
+# 1. Go to: https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBladeh
+# 2. Click "+ New registration"
+# 3. Enter a name: "OneDrive FUSE"
+# 4. Set supported account types to "Personal accounts only"
+# 5. Select platform: "Web"
+# 6. Set the redirect URI to "http://localhost:8080"
+# 7. Create client secret.
+client_id = "onedrive-client-id"
+client_secret = "onedrive-client-secret"
+redirect_uri = "http://localhost:8080"
